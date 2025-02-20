@@ -1,0 +1,52 @@
+List of Linux commands
+
+1)mkdir= Create new directory with given name
+2)cd =change directory
+3)ls=List the content of directory
+4)touch= it create Empty files
+5)cat>filename = Create new file and write the content and cntrl+D to save the content
+6)cat= Display the content of file
+7)cat file1 file2>file3 =Creates new file and content of both files will be copied to new file
+8)ls *.txt= list all the file with given extension
+9)pwd = display current working directory
+10)cp= copy a file or directory-- (cp source destination)
+11)head = Display first 10 lines of a file -->eg= head file1.txt
+12)tail =display last 10 lines of a file   --> eg= tail file1.txt
+14)tac = display file content in reverse order
+15)more= similar to cat and here we can display large content by using enter or by spacebar
+16)id= display id of user/group
+clear =clear the screen
+17)vi= text editor to write program of text
+18)grep= filter to search given pattern in file content
+(eg= grep o file1.txt --wherever the 'o' is there in file1.txt that will be highlighted)
+ egrep== u can search more than one string
+
+19)zip and unzip = compresses one or multiple files into zip archive--> zip zipfileName file1 file2
+                                                                        unzip zipfileName
+20)sort= sort filename
+21)sed = to search and replace pattern in files quickly
+22)diff = compares two files and prints their differences
+23)find=  search file in specific directory
+24)hostname= u can check computername or hostname
+25)shred ==hiding the file
+26)for adding new user--> sudo adduser user_name
+                          give password and retype password and then give details
+						  -for accessing that user -->su user_name
+						  my username is-- t0314996 and password Abc@1234
+						  
+						  we can see list of user by using command--> vi /ect/passwd
+27) for deleting user --> sudo userdel user_name			  
+28) for changing password of already existed user--> sudo passwd user_name
+29)for changing ownership of file -->chown
+    sudo chown user_name file_name
+
+30)	ls -lh--> combine all 
+31) tail -f ==> tail shows last 10 --appending
+32) nohup
+33) ps
+	
+
+	
+
+
+30)ps--Process status															
