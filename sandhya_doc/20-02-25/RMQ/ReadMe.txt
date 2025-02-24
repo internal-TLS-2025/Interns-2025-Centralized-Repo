@@ -1,0 +1,3 @@
+RabbitMQ is a widely used message broker that allows different applications or services to communicate with each other asynchronously by sending messages through queues. In simple terms, it acts as a "middleman" that stores messages temporarily until they are consumed by a receiver. It’s like a post office: you send a message (letter) to a queue (postbox), and RabbitMQ makes sure the receiver gets it when they’re ready.
+RabbitMQ supports Advanced Message Queuing Protocol (AMQP), which is a standard protocol for messaging. It can be used for various messaging patterns like publish-subscribe, request-reply, and point-to-point.
+
