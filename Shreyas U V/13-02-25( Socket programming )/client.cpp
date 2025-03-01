@@ -8,11 +8,7 @@
 #define BUFFER_SIZE 1024
  
 int main() {
-    int sock = 0;
-    struct sockaddr_in server_address;
-    char buffer[BUFFER_SIZE] = {0};
- 
-    // Create socket
+    int sock = 0;    // Create socket
     if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         std::cerr << "Socket creation failed" << std::endl;
         return -1;
