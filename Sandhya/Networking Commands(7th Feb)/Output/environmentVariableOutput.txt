@@ -1,0 +1,7 @@
+Current User: t0314996
+Home Directory: /home/t0314996
+Current Shell: /bin/bash
+Current Working Directory: /home/t0314996/script
+Disk Usage in Home Directory:
+282M    /home/t0314996
+Hello, t0314996! Welcome to your home directory.
